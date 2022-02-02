@@ -17,7 +17,7 @@ const ContainerDashboard = ({ children, title }) => {
 	return (
 		<div className="martfury-admin">
 			<Head>
-				<title>{titleView}</title>
+				<title>Dawood</title>
 			</Head>
 			<main className="ps-main">
 				<div className="ps-main__sidebar">

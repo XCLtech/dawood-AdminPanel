@@ -7,12 +7,12 @@ import WidgetUserWelcome from "~/components/shared/widgets/WidgetUserWelcome";
 import HeaderDashboard from "~/components/shared/headers/HeaderDashboard";
 
 const ContainerDefault = ({ children, title }) => {
-	let titleView;
-	if (title !== undefined) {
-		titleView = process.env.title + " | " + title;
-	} else {
-		titleView = process.env.title + " | " + process.env.titleDescription;
-	}
+	// let titleView;
+	// if (title !== undefined) {
+	// 	titleView = process.env.title + " | " + title;
+	// } else {
+	// 	titleView = process.env.title + " | " + process.env.titleDescription;
+	// }
 
 	return (
 		<div className="martfury-admin">

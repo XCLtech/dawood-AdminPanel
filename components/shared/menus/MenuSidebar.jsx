@@ -20,16 +20,17 @@ const MenuSidebar = () => {
 			url: "/orders",
 			icon: "icon-bag2",
 		},
-		// {
-		// 	text: "Customers",
-		// 	url: "/customers",
-		// 	icon: "icon-users2",
-		// },
 		{
 			text: "Categories",
 			url: "/categories",
 			icon: "icon-users2",
 		},
+		// {
+		// 	text: "Customers",
+		// 	url: "/customers",
+		// 	icon: "icon-users2",
+		// },
+
 		// {
 		// 	text: "Settings",
 		// 	url: "/settings",

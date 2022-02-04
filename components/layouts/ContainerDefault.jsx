@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import FooterCopyright from "~/components/shared/footers/FooterCopyright";
 import MenuSidebar from "~/components/shared/menus/MenuSidebar";
-import WidgetEarningSidebar from "~/components/shared/widgets/WidgetEarningSidebar";
+// import WidgetEarningSidebar from "~/components/shared/widgets/WidgetEarningSidebar";
 import WidgetUserWelcome from "~/components/shared/widgets/WidgetUserWelcome";
 import HeaderDashboard from "~/components/shared/headers/HeaderDashboard";
 
@@ -24,7 +24,7 @@ const ContainerDefault = ({ children, title }) => {
 					<div className="ps-sidebar">
 						<div className="ps-sidebar__top">
 							<WidgetUserWelcome />
-							<WidgetEarningSidebar />
+							{/* <WidgetEarningSidebar /> */}
 						</div>
 						<div className="ps-sidebar__content">
 							<div className="ps-sidebar__center">

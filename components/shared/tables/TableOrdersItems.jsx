@@ -6,6 +6,7 @@ import DropdownAction from '~/components/elements/basic/DropdownAction';
 import Axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Router from  'next/router'
 
 
 
@@ -82,6 +83,16 @@ const TableOrdersItems = () => {
                  
                  }
 
+        const send=(e)=>{
+            Router.push({
+                pathname:"/orders/order-detail/",
+                query:{
+                    e
+                }
+            
+            })
+        }
+// console.log(errror)
     const tableItemsView = data.map((item) => {
         let badgeView, fullfillmentView;
         const menuView = (
@@ -125,14 +136,16 @@ const TableOrdersItems = () => {
             <tr key={item.id}>
                 {/* <td>{item.id}</td> */}
                 <td>
-                <button className="ps-dropdown__toggle" onClick={()=>postDelete(item.id)}>
-                    <Link href="/orders/order-detail/">
+                {/* <button className="ps-dropdown__toggle" onClick={()=>postDelete(item.id)}> */}
+                    {/* <Link href="/orders/order-detail/"> */}
                         
-                        <a>
+                    
+                <button className="ps-dropdown__toggle" onClick={()=>send(item.id)}></button>
+                            
                             <strong>{item.id}</strong>
-                        </a>
-                    </Link>
-                    </button>
+                       
+                    {/* </Link> */}
+                    {/* </button> */}
                 </td>
                 
                 <td>

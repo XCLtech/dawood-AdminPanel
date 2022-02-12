@@ -25,11 +25,11 @@ const MenuSidebar = () => {
 			url: "/categories",
 			icon: "icon-users2",
 		},
-		// {
-		// 	text: "Customers",
-		// 	url: "/customers",
-		// 	icon: "icon-users2",
-		// },
+		{
+			text: "Subscribers",
+			url: "/Subscribers",
+			icon: "icon-users2",
+		},
 
 		// {
 		// 	text: "Settings",

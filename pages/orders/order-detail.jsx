@@ -12,10 +12,10 @@ const OrderDetailPage = () => {
         dispatch(toggleDrawerMenu(false));
     }, []);
     return (
-        <ContainerDefault title="Order Detail">
+        <ContainerDefault title="Order Details">
             <HeaderDashboard
                 title="Order Detail"
-                description="Martfury Order Detail"
+                
             />
             <section className="ps-dashboard">
                 <div className="ps-section__left">
@@ -26,13 +26,11 @@ const OrderDetailPage = () => {
                         <div className="col-md-4">
                             
                         </div>
-                        <div className="col-md-4">
-                            {/* <ModuleOrderShippingInformation /> */}
-                        </div>
+                       
                     </div>
                     <div className="ps-card ps-card--track-order">
                         <div className="ps-card__header">
-                            <h4>#ABD-235711</h4>
+                            <h4>Product Details</h4>
                         </div>
                         <div className="ps-card__content">
                         <ModuleOrderBillingInformation />

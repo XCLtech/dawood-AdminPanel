@@ -36,20 +36,34 @@ const ModuleOrderShippingInformation = () => {
         return (
             <div className="ps-card ps-card--order-information ps-card--small">
             <div className="ps-card__header">
-            <h4>{item.firstName}</h4>
-            <h4>{item.lastName}</h4>
+                <h3>Shipping Information</h3>
+            {/* <h4>Name: </h4> */}
+            <p>
+                    <strong>OrderId: <h4> {item.orderId}</h4></strong> 
+                </p>
+           
             </div>
             <div className="ps-card__content">
-                <h5>{}</h5>
+                
+            <h4>Name: {item.firstName+" " +item.lastName}</h4>
                 <p>
                     <strong>Address:   {item.address}</strong>
                   
+                </p>    
+                <p>
+                    <strong>Phone No: {item.contactNo}</strong> 
                 </p>
                 <p>
-                    <strong>Phone No.: {item.contactNo}</strong> 
+                    <strong>Email:{ item.Email}</strong> 
                 </p>
                 <p>
-                    <strong>Email :{ item.postalCode}</strong> 
+                    <strong>City: { item.city}</strong> 
+                </p>
+                <p>
+                    <strong>Postal Code:  { item.postalCode}</strong> 
+                </p>
+                <p>
+                    <strong>Total Amount: <h1> { item.total}</h1></strong> 
                 </p>
             </div>
         </div>

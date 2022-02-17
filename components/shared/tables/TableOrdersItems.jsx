@@ -140,9 +140,9 @@ const TableOrdersItems = () => {
                     {/* <Link href="/orders/order-detail/"> */}
                         
                     
-                <button className="ps-dropdown__toggle" onClick={()=>send(item.id)}></button>
+                <button className="ps-dropdown__toggle" onClick={()=>send(item.id)}>{item.id}</button>
                             
-                            <strong>{item.id}</strong>
+                            
                        
                     {/* </Link> */}
                     {/* </button> */}
@@ -151,7 +151,7 @@ const TableOrdersItems = () => {
                 <td>
                     <strong> {item.createdAt}</strong>
                 </td>
-                <td>{item.updatedAt}</td>
+                {/* <td>{item.updatedAt}</td> */}
                 {/* <td>{fullfillmentView}</td> */}
                 <td>
                     <strong>{item.total}</strong>
@@ -160,6 +160,7 @@ const TableOrdersItems = () => {
                     <strong>{item.subTotal}</strong>
                 </td>
                 <td>{item.contactInfo}</td>
+                <td></td>
                 {/* <td>
                     <DropdownAction />
                 </td> */}
@@ -174,7 +175,7 @@ const TableOrdersItems = () => {
                         
                         <th>ID</th>
                         <th>CreatedAt</th>
-                        <th>UpdatedAt</th>
+                        {/* <th>UpdatedAt</th> */}
                         <th>Total</th>
                         <th>Subtotal</th>
                         {/* <th>Total</th> */}

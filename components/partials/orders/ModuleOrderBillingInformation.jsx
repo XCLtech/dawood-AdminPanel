@@ -39,30 +39,29 @@ const ModuleOrderBillingInformation = () => {
            
             return (
                 <tr key={item.id}>
-                    {/* <td>{item.id}</td> */}
+                    
                     <td>
                   
                         
                     <strong>{item.id}</strong>
                                 
-                                {/* <strong>{item.id}</strong> */}
-                           
-                        {/* </Link> */}
-                        {/* </button> */}
                     </td>
                     
-                    {/* <td>{item.productId}</td> */}
+                  
+                    <td>
+                        <strong>{item.title}</strong>
+                    </td>
+                  
                     <td>
                         <strong> {item.quantity}</strong>
                     </td>
-                    {/* <td>{fullfillmentView}</td> */}
                     <td>
-                        {/* <strong>{item.total}</strong> */}
+                        <strong>{item.price}</strong>   
                     </td>
+                  <td><strong>{item.itemTotal}</strong></td>
                     <td>
-                        {/* <strong>{item.subTotal}</strong> */}
+                        <strong></strong>
                     </td>
-                  
                 </tr>
             );
         });
@@ -72,8 +71,12 @@ const ModuleOrderBillingInformation = () => {
                     <thead>
                         <tr>
                             
-                            <th>Product Id</th>
-                            <th>Quantity</th>
+                            <th><storng>Product Id</storng></th>
+                            <th><strong>Title</strong></th>
+                            <th><strong>Quantity</strong></th>
+                             <th><strong>Price</strong></th>
+                             <th><strong>Itemtotal</strong></th>
+
                            
                         </tr>
                     </thead>

@@ -44,22 +44,22 @@ const OrdersPage = () => {
 								</div>
 							</div>
 							<div className="ps-form__right">
-								<button className="ps-btn ps-btn--gray">
+								{/* <button className="ps-btn ps-btn--gray">
 									<i className="icon icon-funnel mr-2"></i>
 									Filter
-								</button>
+								</button> */}
 							</div>
 						</form>
 					</div>
 					<div className="ps-section__actions">
-						<Link href="/products/create-product">
+						{/* <Link href="/products/create-product">
 							<a className="ps-btn success">
 								<i className="icon icon-plus mr-2"></i>New Order
 							</a>
-						</Link>
-						<a className="ps-btn ps-btn--gray" href="new-order.html">
+						</Link> */}
+						{/* <a className="ps-btn ps-btn--gray" href="new-order.html">
 							<i className="icon icon-download2 mr-2"></i>Export
-						</a>
+						</a> */}
 					</div>
 				</div>
 				<div className="ps-section__content">

@@ -13,7 +13,7 @@ const HeaderDashboard = ({
 			</div>
 			<div className="header__center">{/* <FormHeaderSearch /> */}</div>
 			<div className="header__right">
-				<a className="header__site-link" href="#">
+				<a className="header__site-link" href="https://dawood-online.vercel.app/">
 					<span>View your store</span>
 					<i className="icon-exit-right"></i>
 				</a>

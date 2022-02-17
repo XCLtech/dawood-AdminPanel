@@ -16,7 +16,7 @@ const CustomersPage = () => {
         <ContainerDefault title="Customers">
             <HeaderDashboard
                 title="Customers"
-                description="Martfury Customer Listing"
+                
             />
             <section className="ps-items-listing">
                 <div className="ps-section__header simple">

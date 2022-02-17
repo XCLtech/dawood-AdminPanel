@@ -51,7 +51,7 @@ const ModuleOrderShippingInformation = () => {
                   
                 </p>    
                 <p>
-                    <strong>Phone No: {item.contactNo}</strong> 
+                    <strong>Phone No    : {item.contactNo}</strong> 
                 </p>
                 <p>
                     <strong>Email:{ item.Email}</strong> 

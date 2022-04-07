@@ -18,7 +18,8 @@ const TableOrdersItems = () => {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
                     // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
-                    `http://localhost:8080/api/v1/order/`
+                    // `http://localhost:8080/api/v1/order/`
+                    `https://dawoodddocker.herokuapp.com/api/v1/order`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -27,56 +28,15 @@ const TableOrdersItems = () => {
         };
         fetchBags();
     }, []);
-    // const data =
-    
-                        
-        // {
-        //     id: '#A580',
-        //     date: 'Aug 15, 2020',
-        //     product: 'Unero Black Military',
-        //     payment: true,
-        //     fullfillment: 'delivered',
-        //     total: '$56.00',
-        // },
-        // {
-        //     id: '#B260',
-        //     date: 'Aug 16, 2020',
-        //     product: 'Marsh Speaker',
-        //     payment: false,
-        //     fullfillment: 'delivered',
-        //     total: '$56.00',
-        // },
-        // {
-        //     id: '#A583',
-        //     date: 'Aug 17, 2020',
-        //     product: 'Lined Blend T-Shirt',
-        //     payment: true,
-        //     fullfillment: 'In Progress',
-        //     total: '$516.00',
-        // },
-        // {
-        //     id: '#A523',
-        //     date: 'Aug 18, 2020',
-        //     product: 'DJI MAcvic Quadcopter',
-        //     payment: false,
-        //     fullfillment: 'delivered',
-        //     total: '$112.00',
-        // },
-        // {
-        //     id: '#A112',
-        //     date: 'Aug 19, 2020',
-        //     product: 'Black T-Shirt',
-        //     payment: true,
-        //     fullfillment: 'Cancel',
-        //     total: '$30.00',
-        // },
+   
 
         const postDelete =  (id)  => {
 
             let data=  Axios.get(
                      // `http://localhost:8082/api/v1/product`
                      // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
-                     ` http://localhost:8080/api/v1/order/id/${id}`
+                    //  ` http://localhost:8080/api/v1/order/id/${id}`
+                     `https://dawoodddocker.herokuapp.com/api/v1/order/id/${id}`
                      )
             
                      // .then(res=>console.log("deleted",res)).catch(err=>console.log("error",err))
@@ -92,7 +52,7 @@ const TableOrdersItems = () => {
             
             })
         }
-// console.log(errror)
+
     const tableItemsView = data.map((item) => {
         let badgeView, fullfillmentView;
         const menuView = (

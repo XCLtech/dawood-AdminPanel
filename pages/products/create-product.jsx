@@ -13,11 +13,14 @@ const CreateProductPage = () => {
     const handleLoginSubmit = async (data) => {
         const body = {
             title: data.title,
-            imgUrl: data.imgUrl,
+            Department:data.Department,
+            Brand_Name:data.Brand_Name,
+            Main_Category:data.Main_Category,
+           Sub_Cat:data.Sub_Cat,
+            Bar_code:data.Bar_code,
             price: data.price,
-            description: data.description,
+            imgUrl: data.imgUrl,
             CategoryId:data.CategoryId,
-            weight:data.weight,
 
 
             // items: items.map((item) => parseInt(item.id)),
@@ -26,7 +29,8 @@ const CreateProductPage = () => {
         try {
             const res = await axios.post(
                 // 'https://dawoodbackend.herokuapp.com/api/v1/order/',
-                'http://localhost:8080/api/v1/product/',
+                // 'http://localhost:8080/api/v1/product/',
+                'http://dawoodddocker.herokuapp.com/api/v1/product/post',
                 body
             );
             console.log('CBM', { res });
@@ -49,7 +53,7 @@ const CreateProductPage = () => {
                                             name="title"
                                             rules={[
                                                 {
-                                                    required: false,
+                                                    required: true,
                                                     message: 'Enter Product Title',
                                                 },
                                             ]}>
@@ -61,10 +65,90 @@ const CreateProductPage = () => {
                                         </Form.Item>
                                         <div className="form-group">
                                             <Form.Item
+                                                name="Department"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Enter Dempartment name',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="postalCode"
+                                                    placeholder="Enter Dempartment name"
+                                                />
+                                            </Form.Item>
+                                        </div>
+                                        <div className="form-group">
+                                            <Form.Item
+                                                name="Brand_Name"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Enter Brand_Name',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="postalCode"
+                                                    placeholder="Enter Brand_Name"
+                                                />
+                                            </Form.Item>
+                                        </div>
+                                        <div className="form-group">
+                                            <Form.Item
+                                                name="Main_Category"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Enter Category name',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="postalCode"
+                                                    placeholder="Enter Category name"
+                                                />
+                                            </Form.Item>
+                                        </div>
+                                        <div className="form-group">
+                                            <Form.Item
+                                                name="Sub_cat"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Enter Sub_Category Name',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="postalCode"
+                                                    placeholder="Enter Sub_Category Name"
+                                                />
+                                            </Form.Item>
+                                        </div>
+                                        <div className="form-group">
+                                            <Form.Item
+                                                name="Bar_code"
+                                                rules={[
+                                                    {
+                                                        required: true,
+                                                        message: 'Enter Barcode',
+                                                    },
+                                                ]}>
+                                                <Input
+                                                    className="form-control"
+                                                    type="postalCode"
+                                                    placeholder="Enter Barcode"
+                                                />
+                                            </Form.Item>
+                                        </div>
+                                        <div className="form-group">
+                                            <Form.Item
                                                 name="imgUrl"
                                                 rules={[
                                                     {
-                                                        required: false,
+                                                        required: true,
                                                         message: 'Enter Image URL',
                                                     },
                                                 ]}>
@@ -75,61 +159,36 @@ const CreateProductPage = () => {
                                                 />
                                             </Form.Item>
                                         </div>
+                                      
+                                      
+                                        
+                                        
+                                       
                                         <div className="form-group">
                                             <Form.Item
                                                 name="price"
                                                 rules={[
                                                     {
-                                                        required: false,
-                                                        message: 'Enter image price',
+                                                        required: true,
+                                                        message: 'Enter  price',
                                                     },
                                                 ]}>
                                                 <Input
                                                     className="form-control"
                                                     type="postalCode"
-                                                    placeholder="Enter image price"
+                                                    placeholder="Enter price"
                                                 />
                                             </Form.Item>
                                         </div>
-                                        <div className="form-group">
-                                            <Form.Item
-                                                name="description"
-                                                rules={[
-                                                    {
-                                                        required: false,
-                                                        message: 'Enter image description',
-                                                    },
-                                                ]}>
-                                                <Input
-                                                    className="form-control"
-                                                    type="postalCode"
-                                                    placeholder="Enter image description"
-                                                />
-                                            </Form.Item>
-                                        </div>
-                                        <div className="form-group">
-                                            <Form.Item
-                                                name="weight"
-                                                rules={[
-                                                    {
-                                                        required: false,
-                                                        message: 'Enter Weight',
-                                                    },
-                                                ]}>
-                                                <Input
-                                                    className="form-control"
-                                                    type="postalCode"
-                                                    placeholder="Enter Weight"
-                                                />
-                                            </Form.Item>
-                                        </div>
+                                       
+                                        
 
                                         <div className="form-group">
                                             <Form.Item
                                                 name="CategoryId"
                                                 rules={[
                                                     {
-                                                        required: false,
+                                                        required: true,
                                                         message: 'Enter CategoryId',
                                                     },
                                                 ]}>
@@ -175,7 +234,7 @@ export default CreateProductPage;
 // const CreateProductPage = () => {
 //     const dispatch = useDispatch();
 //     useEffect(() => {
-//         dispatch(toggleDrawerMenu(false));
+//         dispatch(toggleDrawerMenu(true));
 //     }, []);
 //     return (
 //         <ContainerDefault title="Create new product">

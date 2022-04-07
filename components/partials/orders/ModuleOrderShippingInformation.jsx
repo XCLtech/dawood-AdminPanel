@@ -63,6 +63,9 @@ const ModuleOrderShippingInformation = () => {
                     <strong>Postal Code:  { item.postalCode}</strong> 
                 </p>
                 <p>
+                    <strong>Shipping Charges:  { item.distance}</strong> 
+                </p>
+                <p>
                     <strong>Total Amount: <h1> { item.total}</h1></strong> 
                 </p>
             </div>

@@ -16,7 +16,7 @@ const TableProjectItems = () => {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
                     // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
-                    `http://localhost:8080/api/v1/product/`
+                    `http://dawoodddocker.herokuapp.com/api/v1/product`
                 );
                 setData(data.data.data);
             } catch (error) {

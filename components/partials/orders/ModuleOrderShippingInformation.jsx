@@ -38,9 +38,9 @@ const ModuleOrderShippingInformation = () => {
             <div className="ps-card ps-card--order-information ps-card--small">
             <div className="ps-card__header">
                 <h3>Shipping Information</h3>
-            {/* <h4>Name: </h4> */}
+            
             <p>
-                    <strong>OrderId: <h4> {item.orderId}</h4></strong> 
+                    <strong>OrderId: <h4> DRWE{item.orderId}</h4></strong> 
                 </p>
            
             </div>

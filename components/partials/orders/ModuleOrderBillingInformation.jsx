@@ -21,7 +21,8 @@ const ModuleOrderBillingInformation = () => {
                 const data = await Axios.get(
                     // `http://localhost:8082/api/v1/product`
                     // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
-                    `http://localhost:8080/api/v1/order/orderItem/${e}`
+                    // `http://localhost:8080/api/v1/order/orderItem/${e}`
+                    `https://dawoodddocker.herokuapp.com/api/v1/order/orderItem/${e}`
                 );
                 setData(data.data.data);
             } catch (error) {
@@ -29,22 +30,12 @@ const ModuleOrderBillingInformation = () => {
             }
         };
         fetchBags();
-
-  
-
-        const tableItemsView = data.map((item) => {
-            let badgeView, fullfillmentView;
-          
-          
-           
+        const tableItemsView = data.map((item) => {            
             return (
                 <tr key={item.id}>
                     
-                    <td>
-                  
-                        
-                    <strong>{item.id}</strong>
-                                
+                    <td>                            
+                        <strong>{item.id}</strong>
                     </td>
                     
                   
@@ -58,6 +49,7 @@ const ModuleOrderBillingInformation = () => {
                     <td>
                         <strong>{item.price}</strong>   
                     </td>
+                    
                   <td><strong>{item.itemTotal}</strong></td>
                     <td>
                         <strong></strong>

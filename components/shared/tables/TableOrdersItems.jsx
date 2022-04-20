@@ -100,7 +100,7 @@ const TableOrdersItems = () => {
                     {/* <Link href="/orders/order-detail/"> */}
                         
                     
-                <button className="ps-dropdown__toggle" onClick={()=>send(item.id)}>{item.id}</button>
+                <button className="ps-dropdown__toggle" onClick={()=>send(item.id)}>View Detail</button>
                             
                             
                        

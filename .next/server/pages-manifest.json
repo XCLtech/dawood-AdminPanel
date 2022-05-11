@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/orders": "pages/orders.js",
   "/products": "pages/products.js",
   "/orders/order-detail": "pages/orders/order-detail.js"
 }

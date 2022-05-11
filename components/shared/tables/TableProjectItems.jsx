@@ -29,11 +29,8 @@ const TableProjectItems = () => {
 
   const postDelete = async (id) => {
     let data = await Axios.delete(
-      // `http://localhost:8082/api/v1/product`
-      // `https://dawoodbackend.herokuapp.com/api/v1/product/id/5`
       `http://localhost:8080/api/v1/product/delete/${id}`
     );
-    // .then(res=>console.log("deleted",res)).catch(err=>console.log("error",err))
     console.log(id);
   };
 
@@ -44,7 +41,6 @@ const TableProjectItems = () => {
           return item;
         } else if (
           item.title.toLowerCase().includes(searchTerm.toLowerCase())
-          // item.CategoryId.toLowerCase().includes(searchTerm.toLowerCase())
         ) {
           return item;
         }
@@ -59,7 +55,6 @@ const TableProjectItems = () => {
         }
         return (
           <tr key={item.sku}>
-            {/* <td>{index + 1}</td> */}
             <td>
               <a href='#'>
                 <strong>{item.id}</strong>
@@ -72,7 +67,6 @@ const TableProjectItems = () => {
               <strong>{item.CategoryId}</strong>
             </td>
 
-            {/* <td>{item.date}</td> */}
             <td>
               <button
                 style={{
@@ -86,7 +80,6 @@ const TableProjectItems = () => {
               >
                 Delete
               </button>
-              {/* <DropdownAction /> */}
             </td>
           </tr>
         );

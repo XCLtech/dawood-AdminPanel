@@ -148,7 +148,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_shared_widgets_WidgetUserWelcome__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ~/components/shared/widgets/WidgetUserWelcome */ "./components/shared/widgets/WidgetUserWelcome.jsx");
 /* harmony import */ var _components_shared_headers_HeaderDashboard__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ~/components/shared/headers/HeaderDashboard */ "./components/shared/headers/HeaderDashboard.jsx");
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\layouts\\ContainerDashboard.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\layouts\\ContainerDashboard.jsx";
 
 
 
@@ -281,7 +281,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\cards\\CardEarning.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\cards\\CardEarning.jsx";
 
 
 const Chart = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-apexcharts */ "react-apexcharts", 7)), {
@@ -475,7 +475,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_shared_tables_TableOrderSummary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~/components/shared/tables/TableOrderSummary */ "./components/shared/tables/TableOrderSummary.jsx");
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\cards\\CardRecentOrders.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\cards\\CardRecentOrders.jsx";
 
 
 
@@ -553,7 +553,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\cards\\CardSaleReport.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\cards\\CardSaleReport.jsx";
 
 
 const Chart = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-apexcharts */ "react-apexcharts", 7)), {
@@ -677,7 +677,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\cards\\CardStatics.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\cards\\CardStatics.jsx";
 
 
 const CardStatics = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("section", {
@@ -973,7 +973,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\cards\\CardTopCountries.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\cards\\CardTopCountries.jsx";
 
 
 const CardTopCountries = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("section", {
@@ -1147,7 +1147,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\footers\\FooterCopyright.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\footers\\FooterCopyright.jsx";
 
 
 const FooterCopyright = () => {
@@ -1197,7 +1197,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\forms\\FormHeaderSearch.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\forms\\FormHeaderSearch.jsx";
 
 
 const FormHeaderSearch = () => {
@@ -1252,7 +1252,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_shared_forms_FormHeaderSearch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ~/components/shared/forms/FormHeaderSearch */ "./components/shared/forms/FormHeaderSearch.jsx");
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\headers\\HeaderDashboard.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\headers\\HeaderDashboard.jsx";
 
 
 
@@ -1344,7 +1344,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\menus\\MenuSidebar.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\menus\\MenuSidebar.jsx";
 
 
 
@@ -1431,7 +1431,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\tables\\TableOrderSummary.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\tables\\TableOrderSummary.jsx";
 
 
 const TableOrderSummary = () => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
@@ -2196,7 +2196,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "F:\\dawood-dashboard\\components\\shared\\widgets\\WidgetUserWelcome.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\components\\shared\\widgets\\WidgetUserWelcome.jsx";
 
 
 const WidgetUserWelcome = () => {
@@ -5171,7 +5171,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store_app_action__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ~/store/app/action */ "./store/app/action.js");
 /* harmony import */ var _components_shared_cards_CardTopCountries__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ~/components/shared/cards/CardTopCountries */ "./components/shared/cards/CardTopCountries.jsx");
 
-var _jsxFileName = "F:\\dawood-dashboard\\pages\\index.jsx";
+var _jsxFileName = "C:\\Users\\XCL Technologies\\Desktop\\Dawood-AdminPanel\\pages\\index.jsx";
 
 
 

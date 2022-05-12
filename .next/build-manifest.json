@@ -28,11 +28,14 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/products.js"
+<<<<<<< HEAD
     ],
     "/products/create-product": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/products/create-product.js"
+=======
+>>>>>>> 87877daba53d01ee08e607f0439f083646922a5c
     ]
   },
   "ampFirstPages": []

@@ -27,7 +27,7 @@ const TableProjectItems = () => {
 
   const postDelete = async (id) => {
     await Axios.delete(
-      `http://dawoodddocker.herokuapp.com/api/v1/product/delete/${id}`
+      `https://dawoodddocker.herokuapp.com/api/v1/product/delete/${id}`
     );
     console.log(id);
   };

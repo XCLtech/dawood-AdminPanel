@@ -13,7 +13,7 @@ const TableCustomerItems = () => {
     const fetchBags = async () => {
       try {
         const data = await Axios.get(
-          `http://dawoodddocker.herokuapp.com/api/v1/Email`
+          `https://dawoodddocker.herokuapp.com/api/v1/Email`
         );
         setData(data.data.data);
         setLoading(true);

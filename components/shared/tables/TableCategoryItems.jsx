@@ -13,7 +13,7 @@ const TableCategoryItems = () => {
     const fetchBags = async () => {
       try {
         const data = await Axios.get(
-          `http://dawoodddocker.herokuapp.com/api/v1/category/`
+          `https://dawoodddocker.herokuapp.com/api/v1/category/`
         );
         setData(data.data.data);
         setLoading(true);
